@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+header{
+    background-color: #fff;
+    height: auto;
+    border-bottom: 1px solid #D9D9D9;
+   
+}
+
+
+header{
+    position: sticky;
+    top: 0 ;
+}
+header .container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;    
+}
+header .container h2{
+    color: #0F241D;
+}
+header .container h2 span{
+    color: #69B99D;
+}
+.mobile{
+    display: none;
+}
+
+.pc ul{
+    display: flex;  
+   justify-content: center;
+   align-items: center;
+    min-height: 100px;
+}
+
+.pc ul li{
+    margin-left: 1rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.pc ul li a
+{
+    text-decoration: none;
+    color: #0F241D;;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+.pc ul li a:hover
+{
+    color: #69B99D;
+}
+
+@media(max-width:700px){
+    .pc{
+        display: none;
+    }
+    .mobile{
+        display: inline;
+    }
+}
+#Inicio{
+    height: 100vh;
+}
+
+#Inicio .container {
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+#Inicio .container .row img{
+    height: 375px;
+    width: 561px;
+
+
+}
+.text{
+    width: 396px;
+    height: 240px;
+}
+#Inicio .container .row{
+    color: #767676
+}
+
+.text a button {
+    text-decoration: none;
+    font-weight: bold;
+    color: #69B99D
+}
+
+.text  a button:hover{
+    color: #0F241D;
+}
+
+.text button,
+form button{
+background-color: #0F241D;
+    color: #Fff;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all ease-in;
+
+}
+
+.text button:hover,
+form button:hover{
+       background-color: #69B99D;
+       transition: 1s all ease-in;
+}
+#Sobre{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+#Sobre .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Sobre .container .row{
+    width: 100%;
+    height: 100%;
+}
+#Sobre .container .row img{
+    width: 412px;
+    height:614px ;
+}
+
+
+#Sobre .container .text{
+    width: 610px;
+    height:310px;
+
+}
+
+.text h3{
+    color: #0F241D;
+}
+
+.text p {
+    color: #767676;
+}
+#Servicos .container{
+    text-align: center;
+    color: #767676;
+}
+#Servicos .container h3{
+    color: #0F241D;
+}
+.col-md-4{
+    text-align: center;
+    margin-top: 2rem;
+}
+.col-md-4 img{
+    width: 352px;
+    height: 352px;
+    border-radius: 2rem;
+    border: 2px solid #0F241D;
+}
+.col-md-4 h6{
+    margin-top: 1rem;
+    color: #69B99D;
+    font-size: 20px;
+}
+footer{
+    margin-top: 5rem;
+    font-weight: bold;
+    color: #D9D9D9;
+    height: 30px;
+}
+
+#Contato{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Contato .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#Contato .container h3 {
+    margin-top: 5rem;
+    font-size: 30px;
+color: #0F241D;
+font-weight: bold;
+text-align: center;}
+
+form{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+}
+form input,
+textarea{
+    margin-top: 1rem;
+    border: 2px solid #69B99D;
+    border-radius: 6px;
+    background-color: transparent;
+}
+
+textarea{
+    margin-top: 2rem;
+}
+form div{
+    display: flex;
+   
+}
+.name{
+    margin-right: 1rem;
+
+}
+form div input{
+width: 100%; 
+}
+
+
+form button{
+    margin-top: 1rem;
+    height: 50px;
+}
